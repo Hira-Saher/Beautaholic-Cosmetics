@@ -1,2 +1,2 @@
 # Beautaholic-Cosmetics
-https://github.com/Hira-Saher/Beautaholic-Cosmetics.git
+https://hira-saher.github.io/Beautaholic-Cosmetics/
