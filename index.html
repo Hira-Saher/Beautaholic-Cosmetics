@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+    <header>
+        <div class="container header">
+            <input type="checkbox" name="" id="check">
+
+            <div class="logo-container">
+                <img class="brand-logo" src="images/Beautaholic-logo-2.png" alt="logo">
+            </div>
+            <div class="nav-btn">
+                <div class="nav-links">
+                    <ul>
+                        <li class="nav-link" style="--i: .6s">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">Cosmetics<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">BB cream</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Foundation</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Make Up<i class="fas fa-caret-down"></i></a>
+                                        <div class="dropdown second">
+                                            <ul>
+                                                <li class="dropdown-link">
+                                                    <a href="#">MU Fixer</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">MU Remover</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Anti-aging cream</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">More<i class="fas fa-caret-down"></i></a>
+                                                    <div class="dropdown second">
+                                                        <ul>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Tea-tree Oil</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Skin Glower</a>
+                                                            </li>
+                                                            <div class="arrow"></div>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <div class="arrow"></div>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.35s">
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="log-sign" style="--i: 1.8s">
+                    <a href="#" class="btn transparent">Log in</a>
+                    <a href="#" class="btn solid">Sign up</a>
+                </div>
+            </div>
+
+            <!-- <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+        </div> -->
+    </header>
+
+    <br>
+
+    <!-- Special Product Section -->
+    <section class="products">
+        <div class="container">
+            <div class="heading">
+                <div class="pink-heading">Create magic within yourself</div>
+                Special Products
+            </div>
+
+
+            <div class="row">
+                <!-- Product-1 -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="pic-1" src="Images/02.jpg">
+                                <!-- <img class="pic-2" src="Images/04.jpg"> -->
+                            </a>
+                            <ul class="social">
+                                <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                                <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                            <!-- <span class="product-new-label">Sale</span>
+                        <span class="product-discount-label">20%</span> -->
+                        </div>
+
+                        <div class="product-content">
+                            <ul class="rating">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star disable"></li>
+                            </ul>
+                            <h3 class="title"><a href="#">BB Cream (Skin Perfector)</a></h3>
+                            <p>Original - 5 in 1 Daily Moisturizer</p>
+                            <div class="price">Price: $150
+                                <!-- <span>$20.00</span> -->
+                            </div>
+                            <a class="add-to-cart" href="">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product-2 -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="pic-1" src="Images/02.jpg">
+                                <!-- <img class="pic-2" src="Images/04.jpg"> -->
+                            </a>
+                            <ul class="social">
+                                <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                                <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                            <!-- <span class="product-new-label">Sale</span>
+                        <span class="product-discount-label">20%</span> -->
+                        </div>
+
+                        <div class="product-content">
+                            <ul class="rating">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star disable"></li>
+                            </ul>
+                            <h3 class="title">
+                                <a href="#">BB Cream (Skin Perfector)</a></h3>
+                            <p>Original - 5 in 1 Daily Moisturizer</p>
+                            <div class="price">Price: $150
+                                <!-- <span>$20.00</span> -->
+                            </div>
+                            <a class="add-to-cart" href="">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product-3 -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="pic-1" src="Images/02.jpg">
+                                <!-- <img class="pic-2" src="Images/04.jpg"> -->
+                            </a>
+                            <ul class="social">
+                                <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                                <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                            <!-- <span class="product-new-label">Sale</span>
+                        <span class="product-discount-label">20%</span> -->
+                        </div>
+
+                        <div class="product-content">
+                            <ul class="rating">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star disable"></li>
+                            </ul>
+                            <h3 class="title"><a href="#">BB Cream (Skin Perfector)</a></h3>
+                            <p>Original - 5 in 1 Daily Moisturizer</p>
+                            <div class="price">Price: $150
+                                <!-- <span>$20.00</span> -->
+                            </div>
+                            <a class="add-to-cart" href="">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial text-center">
+        <div class="container">
+
+            <div class="heading">
+                <div class="pink-heading">Testimonials</div>
+                Happy Customers
+            </div>
+
+            <div id="testimonial1"
+                class="carousel slide testimonial1_indicators testimonial1_control_button thumb_scroll_x swipe_x"
+                data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+
+                <div id="testimonial1" class="carousel slide">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="testimonial1_slide">
+                                <img src="images/client-1.jpg" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. </p>
+                                <h4> Jeniffer</h4>
+                                <h5>Designer</h5>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="testimonial1_slide">
+                                <img src="images/client-2.jpg" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. </p>
+                                <h4>Christine</h4>
+                                <h5>Artist</h5>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="testimonial1_slide">
+                                <img src="images/client-3.jpg" />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. </p>
+                                <h4>Genelia Lopez</h4>
+                                <h5>Event Manager</h5>
+                            </div>
+                        </div>
+
+                        
+                            <a class="carousel-control-prev" href="#testimonial1" data-slide="prev">
+                                <span class="previous round">&#8249;</span>
+                            </a>
+                            <a class="carousel-control-next" href="#testimonial1" data-slide="next">
+                                <span class="next round">&#8250;</span>
+                            </a>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-black text-white px-12 py-10 flex">
+        <section class="s-A">
+            <div class="s-A1">
+                <img src="Images/Beautaholic-logo-(footer).png" alt="logo">
+            </div>
+            <div class="s-A2 w-56 my-6">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae blanditiis nulla totam.
+                </p>
+            </div>
+            <div class="s-A3 text-xl flex flex-row justify-between social">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus-g"></i>
+            </div>
+        </section>
+        <section class="s-B no-underline flex flex-row justify-between capitalize leading-relaxed w-3/6 ml-12 p-6">
+            <div class="s-B1">
+                <h4 class="uppercase font-bold text-lg">menu</h4>
+                <ul class="font-xs">
+                    <li>home</li>
+                    <li>search</li>
+                    <li>shipping</li>
+                    <li>privacy policy</li>
+                    <li>latest news</li>
+                    <li>catalog</li>
+                </ul>
+            </div>
+            <div class="s-B2">
+                <h4 class="uppercase font-bold text-lg">quick view</h4>
+                <ul class="font-xs">
+                    <li>best products</li>
+                    <li>cosmetics</li>
+                    <li>beauty world</li>
+                </ul>
+            </div>
+            <div class="s-B3">
+                <h4 class="uppercase font-bold text-lg">links</h4>
+                <ul class="font-xs">
+                    <li>about us</li>
+                    <li>contatct us</li>
+                    <li>faq</li>
+                </ul>
+            </div>
+        </section>
+        <section class="s-C pt-6 ml-32">
+            <div class="s-C1">
+                <h4 class="uppercase font-bold text-lg">contact info</h4>
+            </div>
+        </section>
+
+        <div class="copyright">
+            Copyright © 2020, Beautaholic Cosmetics | Designed & Developed By Team Fairy Meadows
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
