@@ -476,7 +476,7 @@ header{
     height: 40px;
     width: 180px;
     transform: translateX(-50%);
-    background: url(Images/line.png);
+    background: url(images/line.png);
     background-repeat: no-repeat;
     background-position: center;
   }
